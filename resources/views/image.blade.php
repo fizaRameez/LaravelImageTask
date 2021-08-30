@@ -55,6 +55,7 @@
                                 <div class="input-group control-group" id="">
                                     <input type="file" name="images[]" id="images" class="form-control" multiple="true">
                                 </div>&nbsp;
+                                
                                 <div class="col-md-12" id='toggle-hide'>
                                     <div class="row" id="result" /></div>
                                 </div>
@@ -104,7 +105,7 @@ window.onload = function () {
             var files = event.target.files; //FileList object
             var output = document.getElementById("result");
             
-            j=j+20;
+            //j=j+20;
             for (var i = 0; i < files.length; i++)
             {
                 
