@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ImageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +25,5 @@ Route::group(['middleware' => ['auth']], function () {
 	Route::resource('/employees', 'EmployeeController')->except(['show']);
 });
 Route::get('home', 'HomeController@index')->name('home');
-Route::post('upload_images', [HomeController::class, 'uploadImages']);
+Route::post('upload_images', [ImageController::class, 'uploadImages']);
+Route::get('images', 'ImageController@getImages')->name('images');

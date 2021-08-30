@@ -3,31 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/laravelApplication/app/Http/Controllers/CompanyController.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/app/Http/Controllers/LanguageController.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/app/User.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/resources/views/home.blade.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/database/migrations/2021_08_29_060213_create_images_table.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/composer.json</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/public/css/styles.css</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/resources/views/layouts/index.html</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/resources/views/welcome.blade.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/resources/views/company/list.blade.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/app/Image.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/app/Models/Employee.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/public/js/scripts.js</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/routes/web.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/app/Http/Controllers/EmployeeController.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/database/migrations/2018_10_02_092012_create_employees_table.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/routes/console.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/app/Models/Company.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/resources/views/company/create.blade.php</file>
             <file>file:/C:/xampp/htdocs/laravelApplication/app/Http/Controllers/ImageController.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/public/css/app.css</file>
             <file>file:/C:/xampp/htdocs/laravelApplication/resources/views/layouts/app.blade.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/database/migrations/2021_08_28_184232_create_sessions_table.php</file>
-            <file>file:/C:/xampp/htdocs/laravelApplication/app/Http/Controllers/HomeController.php</file>
             <file>file:/C:/xampp/htdocs/laravelApplication/resources/views/image.blade.php</file>
+            <file>file:/C:/xampp/htdocs/laravelApplication/routes/web.php</file>
         </group>
     </open-files>
 </project-private>

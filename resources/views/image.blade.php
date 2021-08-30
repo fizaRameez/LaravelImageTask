@@ -47,7 +47,6 @@
 
                             </div>
                         </nav>
-                        <!-- Page content-->
                         <div class="container-fluid">
                             <h3 class="mt-4">Add Multiple Images</h3>
                             <form method="post" action="{{url('upload_images')}}" enctype="multipart/form-data">
@@ -71,8 +70,8 @@
                         <?php
                         } else {
                             echo '</tr><tr>';
-                            ?>
-                            <?php $a = 0;
+                            ?><td><img width="100" height="100" src="{{asset('/prismImages/'.$image->image_path)}}"></img></td>
+                            <?php $a = 1;
                         }
                         $a++;
                     }
@@ -87,6 +86,7 @@
 
 </div>
 @endsection
+<script src="{{ asset('js/form-file-uploader.js') }}"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript">
 

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class ImageController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -18,10 +18,10 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function getImages()
     {
         $images=  \App\Image::get();
-        return view('home', [
+        return view('image', [
 			'images' => $images
 		]);
     }
@@ -33,13 +33,10 @@ class HomeController extends Controller
         $input = $request->all();
         if ($request->file('images')) {
             $images = $request->file('images');
-            
-            
             $i=0;
-            
+            //storing multiple images
             foreach ($images as $image) {
-                $destinationPath = 'prismImages/';
-                //$name = $image->getClientOriginalName();
+                $destinationPath = 'prismImages/';//setting destination path
                 $profileImage = 'item'.$i. '-' . time() . '.' . strtolower($image->getClientOriginalExtension());
                 $image->move($destinationPath, $profileImage);
                 if (isset($input['imageTypeView' . $i])) {
@@ -60,9 +57,9 @@ class HomeController extends Controller
                 ]);
                 $i++;
             }
-            return redirect()->route('home')->with('success', 'Images Added successfully');
+            return redirect()->route('images')->with('success', 'Images Added successfully');
         }
-         return redirect()->route('home')->with('success', 'Images Added successfully');
+         return redirect()->route('images')->with('success', 'Images Added successfully');
     }
 
 }
