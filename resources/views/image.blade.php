@@ -52,8 +52,8 @@
                             <form method="post" action="{{url('upload_images')}}" enctype="multipart/form-data">
                                 {{csrf_field()}}
 
-                                <div class="input-group control-group" id="uploadImg">
-                                    <input type="file" name="images[]" id="images" class="form-control" multiple>
+                                <div class="input-group control-group" id="">
+                                    <input type="file" name="images[]" id="images" class="form-control" multiple="true">
                                 </div>&nbsp;
                                 <div class="col-md-12" id='toggle-hide'>
                                     <div class="row" id="result" /></div>
@@ -97,16 +97,17 @@ window.onload = function () {
     if (window.File && window.FileList && window.FileReader)
     {
         var filesInput = document.getElementById("images");
-
+        var j=0;
+        var k=0;
         filesInput.addEventListener("change", function (event) {
-
+            
             var files = event.target.files; //FileList object
             var output = document.getElementById("result");
-
+            
+            j=j+20;
             for (var i = 0; i < files.length; i++)
             {
-                var j=0;
-                var k=0;
+                
                 var file = files[i];
 
                 //Only pics
