@@ -32,7 +32,7 @@
                             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Dashboard</a>
                             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Rooms & Suits</a>
                             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Offers</a>
-                            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{URL::to('home')}}">Media</a>
+                            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{URL::to('images')}}">Media</a>
                             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Pages</a>
                             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Main Header</a>
                         </div>
