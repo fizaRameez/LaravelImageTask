@@ -1,8 +1,7 @@
-It's a simple project that was created to demonstrate basic Laravel skills.
+It's a simple project that was created to demonstrate Multiple Image Upload.
 
-It included:
-
-- MVC
+This Project included:
+- Multiple Image Upload
 - Basic Laravel auth
 - CRUD and Resource Controllers
 - Eloquent and Relationships
